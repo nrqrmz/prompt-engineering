@@ -3,6 +3,7 @@
 <%= simple_form_for [@challenge, @message] do |f| %>
   <%= f.input :content, placeholder: 'Ask a question', required: true %>
   <%= f.button :submit, 'Submit', class: 'btn btn-info' %>
+
 <% end %>
 
 <%= link_to 'Cancel', challenge_path(@challenge) %>
