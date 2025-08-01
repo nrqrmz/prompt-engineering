@@ -157,3 +157,5 @@ Write a seed that populates your database with 5 users who each have between 5 a
 Don’t spend too much time trying to use the API. Remember that our goal here is to work with associations.
   HEREDOC
 )
+
+User.create(email: 'enrique@lewagon.com', password: '123456')
